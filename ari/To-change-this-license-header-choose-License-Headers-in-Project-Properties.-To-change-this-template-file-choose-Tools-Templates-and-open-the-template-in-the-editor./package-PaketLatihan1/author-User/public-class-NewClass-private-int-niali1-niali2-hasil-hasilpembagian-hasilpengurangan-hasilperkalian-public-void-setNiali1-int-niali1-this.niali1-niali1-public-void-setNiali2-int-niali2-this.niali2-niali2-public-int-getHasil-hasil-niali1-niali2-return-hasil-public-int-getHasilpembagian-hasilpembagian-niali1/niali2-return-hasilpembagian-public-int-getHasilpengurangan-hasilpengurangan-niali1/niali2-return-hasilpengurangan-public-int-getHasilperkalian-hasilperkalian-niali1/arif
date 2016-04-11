@@ -1,0 +1,44 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package PaketLatihan1;
+
+/**
+ *
+ * @author User
+ */
+public class NewClass {
+    private int niali1,niali2,hasil,hasilpembagian,hasilpengurangan,hasilperkalian;
+
+    public void setNiali1(int niali1) {
+        this.niali1 = niali1;
+    }
+
+    public void setNiali2(int niali2) {
+        this.niali2 = niali2;
+    }
+
+    public int getHasil() {
+        hasil = niali1+niali2;
+        return hasil;
+    }
+
+    public int getHasilpembagian() {
+        hasilpembagian=niali1/niali2;
+        return hasilpembagian;
+    }
+
+    public int getHasilpengurangan() {
+        hasilpengurangan=niali1/niali2;
+        return hasilpengurangan;
+    }
+
+    public int getHasilperkalian() {
+        hasilperkalian=niali1/niali2;
+        return hasilperkalian;
+    }
+    
+    
+}
